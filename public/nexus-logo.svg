@@ -1,0 +1,27 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Outer Glitch Ring (Purple) -->
+    <path d="M32 4L4 18V46L32 60L60 46V18L32 4Z" stroke="#BD00FF" stroke-width="2" stroke-dasharray="10 5" opacity="0.7">
+        <animate attributeName="stroke-dashoffset" from="0" to="100" duration="3s" repeatCount="indefinite"/>
+    </path>
+    
+    <!-- Inner Core (Cyan) -->
+    <path d="M32 12L14 22V42L32 52L50 42V22L32 12Z" stroke="#00F0FF" stroke-width="3" fill="none" stroke-linejoin="round"/>
+    
+    <!-- Central Node -->
+    <circle cx="32" cy="32" r="6" fill="#00F0FF">
+        <animate attributeName="r" values="6;8;6" duration="1.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="1;0.5;1" duration="0.5s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- Data Lines (Asymmetrical) -->
+    <path d="M50 22L62 16" stroke="#00F0FF" stroke-width="2" stroke-linecap="round"/>
+    <path d="M14 42L2 48" stroke="#BD00FF" stroke-width="2" stroke-linecap="round"/>
+    <path d="M32 52L32 62" stroke="#00F0FF" stroke-width="2" stroke-linecap="round"/>
+    <path d="M32 4L32 12" stroke="#BD00FF" stroke-width="2" stroke-linecap="round"/>
+    
+    <!-- Glitch Fragments -->
+    <path d="M18 18L24 24" stroke="#BD00FF" stroke-width="2"/>
+    <path d="M46 46L40 40" stroke="#00F0FF" stroke-width="2"/>
+    <rect x="42" y="14" width="4" height="4" fill="#BD00FF" opacity="0.8"/>
+    <rect x="18" y="46" width="4" height="4" fill="#00F0FF" opacity="0.8"/>
+</svg>

@@ -1,0 +1,72 @@
+**"Digital Architect" CV**
+
+***
+
+**LAKSHIT SONI**
+**DECENTRALIZED SYSTEMS ARCHITECT**
+*>> STATUS: ONLINE // AVAILABLE FOR DEPLOYMENT*
+
+**DATA_BLOCK: UPLINK COORDINATES**
+* **Base Node:** Jaipur, Rajasthan
+* **Signal Frequency:** +91 83028 73781
+* **Secure Mail:** Lakshitsoni26@gmail.com
+* **Portfolio:** [Insert Link to Command Center]
+
+---
+
+**DATA_BLOCK: KERNEL MANIFESTO**
+*>> EXECUTING INTRO.EXE*
+Architecting digital infrastructures at the intersection of logic and innovation. I do not just write code; I design immersive systems. With a strong foundation in mathematical logic and Data Structures, I engineer robust backend protocols and high-fidelity frontend interfaces. Currently leveraging Machine Learning and Algorithmic precision to transform raw data into "Digital Reality."
+
+---
+
+**DATA_BLOCK: TECHNICAL ARSENAL**
+* **[INTERFACE / WEB3]:** React, Next.js, TypeScript, JavaScript, HTML5, CSS3, Web3.js
+* **[BLOCKCHAIN PROTOCOLS]:** Solidity (Smart Contracts), Rust (Solana/Systems), Ethereum, ZK-Snarks
+* **[CORE ENGINEERING]:** C, C++, Java, Data Structures & Algorithms (DSA), System Architecture
+* **[INTELLIGENCE]:** Machine Learning, TensorFlow
+* **[DEPLOYMENT & TOOLS]:** Docker, Supabase, Git, GitHub
+
+---
+
+**DATA_BLOCK: MISSION LOG**
+
+**MISSION 01: SENTINEL PROTOCOL**
+*// Category: DeFi Security Infrastructure*
+* Developed an autonomous smart contract auditing infrastructure utilizing AI-driven heuristics.
+* Engineered real-time detection systems for re-entrancy attacks to secure decentralized assets.
+* **Stack:** Solidity, Rust, TensorFlow, React
+
+**MISSION 02: MEDICHAIN VAULT**
+*// Category: Healthcare DAO Architecture*
+* Architected a decentralized patient record management system ensuring data integrity.
+* Implemented Zero-Knowledge privacy proofs for secure medical data exchange without exposing raw info.
+* **Stack:** IPFS, Next.js, ZK-Snarks, Ethereum
+
+**MISSION 03: AYUCHAIN**
+*// Category: Supply Chain Verification*
+* Built a blockchain-based management system ensuring authenticity for Ayurvedic medicines.
+* Established immutable traceability from source to consumer to prevent counterfeiting.
+* **Stack:** Solidity, React, Ethereum, Web3.js
+
+---
+
+**DATA_BLOCK: KNOWLEDGE BASE**
+
+**JECRC University** [2024-2028]
+* >> B.Tech, Computer Science Engineering | **SCGPA: 9.45**
+
+**K.C.I.S Sen. Sec. School** [2016 - 2024]
+* >> 10th Grade Metric: 95% | 12th Grade Metric: 74.5%
+
+---
+
+**DATA_BLOCK: SYSTEM UPGRADES**
+* **[AI/ML]:** Gen AI LLM Model Integration (Upflairs)
+* **[DEVOPS]:** Docker Containerization Architecture (Upflairs)
+* **[CLOUD]:** AWS Community Day Participation
+* **[SECURITY]:** Cyber Security & Entrepreneurship (1stop AI)
+* **[SOFT SKILLS]:** Public Speaking Algorithm (GRFU)
+
+---
+*>> SYSTEM END OF PAGE*
