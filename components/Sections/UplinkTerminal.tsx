@@ -139,7 +139,6 @@ export const UplinkTerminal: React.FC = () => {
                                                         {...register("identity")}
                                                         className="bg-transparent w-full py-2 outline-none text-white placeholder-gray-600"
                                                         placeholder="Enter identifier..."
-                                                        autoFocus
                                                     />
                                                 </div>
                                                 {errors.identity && <span className="text-red-500 text-xs flex items-center"><AlertCircle className="w-3 h-3 mr-1" /> {errors.identity.message}</span>}
