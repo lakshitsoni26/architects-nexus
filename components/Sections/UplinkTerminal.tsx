@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
+import emailjs from '@emailjs/browser';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useForm } from 'react-hook-form';
 import { z } from 'zod';
@@ -74,11 +75,46 @@ export const UplinkTerminal: React.FC = () => {
 
     const onSubmit = async (data: UplinkFormData) => {
         setIsSubmitting(true);
-        // Simulate API delay
-        await new Promise(resolve => setTimeout(resolve, 2000));
-        console.log("Transmission Sent:", data);
-        setIsSubmitting(false);
-        setIsSuccess(true);
+
+        try {
+            const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+            const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+            const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
+
+            if (!serviceId || !templateId || !publicKey) {
+                throw new Error("EmailJS configuration missing");
+            }
+
+            await emailjs.send(
+                serviceId,
+                templateId,
+                {
+                    // Matches {{name}} in template
+                    name: data.identity,
+                    // Matches {{email}} in template
+                    email: data.email,
+                    // Matches {{title}} in subject
+                    title: data.objective,
+                    // Matches {{message}} in body - combining details
+                    message: `
+Objective: ${data.objective}
+Budget: $${data.budget}
+
+Message:
+${data.parameters}
+                    `.trim(),
+                },
+                publicKey
+            );
+
+            console.log("Transmission Sent:", data);
+            setIsSuccess(true);
+        } catch (error) {
+            console.error("Transmission Failed:", error);
+            alert("Transmission Failed. Secure channel disrupted.");
+        } finally {
+            setIsSubmitting(false);
+        }
     };
 
     return (
